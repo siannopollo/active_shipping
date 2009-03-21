@@ -26,6 +26,7 @@ $:.unshift File.dirname(__FILE__)
 
 
 require 'rubygems'
+gem 'activesupport', '< 2.3.0'
 require 'active_support'
 require 'ftools'
 
